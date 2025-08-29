@@ -1,4 +1,4 @@
-export interface MarcaDto {
+export interface GetMarcaDto {
     id: number;
     denominacion: string;
 }

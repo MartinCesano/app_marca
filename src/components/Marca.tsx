@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
-import { MarcaDto }  from '../types/Marca';
+import { GetMarcaDto }  from '../types/Marca';
 import '../App.css';
 
 const Marca = () => {
-    const [marcas, setMarcas] = useState<MarcaDto[]>([]);
+    const [marcas, setMarcas] = useState<GetMarcaDto[]>([]);
 
     useEffect(() => {
         const fetchMarcas = async () => {
