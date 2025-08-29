@@ -7,10 +7,11 @@ import Marca from './components/Marca';
 function App() {
     return (
         <div className="bg-white min-h-screen flex flex-col items-center p-8">
-            <h1 className="mb-6 text-2xl font-bold">Bienvenido a la App Marca</h1>
+            <h1 className="mb-6 text-2xl font-bold">
+                Bienvenido a la App Marca
+            </h1>
             <Marca />
         </div>
-        
     );
 }
 
